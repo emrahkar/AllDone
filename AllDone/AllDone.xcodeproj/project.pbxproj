@@ -11,6 +11,9 @@
 		BF1B353528608CAF006BC01D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B353428608CAF006BC01D /* ContentView.swift */; };
 		BF1B353728608CB3006BC01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1B353628608CB3006BC01D /* Assets.xcassets */; };
 		BF1B353A28608CB3006BC01D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1B353928608CB3006BC01D /* Preview Assets.xcassets */; };
+		BF1B35442860B0C6006BC01D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B35432860B0C6006BC01D /* LoginView.swift */; };
+		BF1B35482860B1C3006BC01D /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B35472860B1C3006BC01D /* SignupView.swift */; };
+		BF1B354A2860B4F8006BC01D /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B35492860B4F8006BC01D /* BackgroundGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		BF1B353428608CAF006BC01D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF1B353628608CB3006BC01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF1B353928608CB3006BC01D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF1B35432860B0C6006BC01D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BF1B35472860B1C3006BC01D /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		BF1B35492860B4F8006BC01D /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		BF1B353128608CAF006BC01D /* AllDone */ = {
 			isa = PBXGroup;
 			children = (
+				BF1B35402860B08F006BC01D /* Model */,
+				BF1B35412860B097006BC01D /* View */,
+				BF1B35422860B09F006BC01D /* ViewModel */,
 				BF1B353228608CAF006BC01D /* AllDoneApp.swift */,
 				BF1B353428608CAF006BC01D /* ContentView.swift */,
 				BF1B353628608CB3006BC01D /* Assets.xcassets */,
@@ -65,6 +74,46 @@
 				BF1B353928608CB3006BC01D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF1B35402860B08F006BC01D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF1B35412860B097006BC01D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF1B35452860B18B006BC01D /* Utils */,
+				BF1B35462860B194006BC01D /* Authentication */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF1B35422860B09F006BC01D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BF1B35452860B18B006BC01D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BF1B35492860B4F8006BC01D /* BackgroundGradientView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BF1B35462860B194006BC01D /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BF1B35432860B0C6006BC01D /* LoginView.swift */,
+				BF1B35472860B1C3006BC01D /* SignupView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +186,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1B35482860B1C3006BC01D /* SignupView.swift in Sources */,
+				BF1B35442860B0C6006BC01D /* LoginView.swift in Sources */,
 				BF1B353528608CAF006BC01D /* ContentView.swift in Sources */,
+				BF1B354A2860B4F8006BC01D /* BackgroundGradientView.swift in Sources */,
 				BF1B353328608CAF006BC01D /* AllDoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
