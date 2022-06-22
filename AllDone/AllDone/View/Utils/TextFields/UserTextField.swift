@@ -1,19 +1,19 @@
 //
-//  PasswordSecureField.swift
+//  UserTextField.swift
 //  AllDone
 //
-//  Created by Emrah Karabulut on 22.06.2022.
+//  Created by Emrah Karabulut on 23.06.2022.
 //
 
 import SwiftUI
 
-struct PasswordSecureField: View {
+struct UserTextField: View {
     
     @Binding var text: String
     let placeholder: Text
     
     var body: some View {
-        CustomSecureField(text: $text, placeholder: placeholder)
+        CustomTextField(text: $text, placeholder: placeholder, imageName: "person")
             .padding()
             .background(Color(.init(white: 1, alpha: 0.15)))
             .cornerRadius(10)
@@ -21,11 +21,11 @@ struct PasswordSecureField: View {
     }
 }
 
-struct PasswordSecureField_Previews: PreviewProvider {
+struct UserTextField_Previews: PreviewProvider {
     static var previews: some View {
         ZStack{
             BackgroundGradientView()
-            PasswordSecureField(text: .constant(""), placeholder: Text("Password"))
+            UserTextField(text: .constant(""), placeholder: Text("Username"))
         }
     }
 }
