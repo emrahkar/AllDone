@@ -15,6 +15,8 @@
 		BF1B35482860B1C3006BC01D /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B35472860B1C3006BC01D /* SignupView.swift */; };
 		BF1B354A2860B4F8006BC01D /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B35492860B4F8006BC01D /* BackgroundGradientView.swift */; };
 		BF1B354C2860B8F4006BC01D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B354B2860B8F4006BC01D /* LogoView.swift */; };
+		BFB4AEE728633BF70093F889 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4AEE628633BF70093F889 /* CustomSecureField.swift */; };
+		BFB4AEE9286347C10093F889 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4AEE8286347C10093F889 /* PasswordSecureField.swift */; };
 		BFEAA04328622430004580A6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAA04228622430004580A6 /* CustomTextField.swift */; };
 		BFEAA045286227E6004580A6 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAA044286227E6004580A6 /* EmailTextField.swift */; };
 /* End PBXBuildFile section */
@@ -29,6 +31,8 @@
 		BF1B35472860B1C3006BC01D /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		BF1B35492860B4F8006BC01D /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
 		BF1B354B2860B8F4006BC01D /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		BFB4AEE628633BF70093F889 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		BFB4AEE8286347C10093F889 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 		BFEAA04228622430004580A6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		BFEAA044286227E6004580A6 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +133,8 @@
 			children = (
 				BFEAA04228622430004580A6 /* CustomTextField.swift */,
 				BFEAA044286227E6004580A6 /* EmailTextField.swift */,
+				BFB4AEE628633BF70093F889 /* CustomSecureField.swift */,
+				BFB4AEE8286347C10093F889 /* PasswordSecureField.swift */,
 			);
 			path = TextFields;
 			sourceTree = "<group>";
@@ -207,9 +213,11 @@
 				BFEAA04328622430004580A6 /* CustomTextField.swift in Sources */,
 				BF1B35482860B1C3006BC01D /* SignupView.swift in Sources */,
 				BF1B354C2860B8F4006BC01D /* LogoView.swift in Sources */,
+				BFB4AEE9286347C10093F889 /* PasswordSecureField.swift in Sources */,
 				BF1B35442860B0C6006BC01D /* LoginView.swift in Sources */,
 				BF1B353528608CAF006BC01D /* ContentView.swift in Sources */,
 				BF1B354A2860B4F8006BC01D /* BackgroundGradientView.swift in Sources */,
+				BFB4AEE728633BF70093F889 /* CustomSecureField.swift in Sources */,
 				BF1B353328608CAF006BC01D /* AllDoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
