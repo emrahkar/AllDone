@@ -21,6 +21,7 @@
 		BF7D03F42865D2F600093F7B /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D03F32865D2F600093F7B /* SelectedButton.swift */; };
 		BF7D03F72865D55700093F7B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF7D03F62865D55700093F7B /* FirebaseFirestoreSwift */; };
 		BF7D03F92865D5E400093F7B /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D03F82865D5E400093F7B /* MockData.swift */; };
+		BF7D03FB2865E47A00093F7B /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D03FA2865E47A00093F7B /* AuthViewModel.swift */; };
 		BF8007BA286478C20036025D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF8007B9286478C10036025D /* GoogleService-Info.plist */; };
 		BF8007BD28647BD50036025D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BF8007BC28647BD50036025D /* FirebaseAnalytics */; };
 		BF8007BF28647BD50036025D /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF8007BE28647BD50036025D /* FirebaseAnalyticsSwift */; };
@@ -30,6 +31,7 @@
 		BF8007C728647BD50036025D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BF8007C628647BD50036025D /* FirebaseFirestore */; };
 		BF8007C928647BD50036025D /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = BF8007C828647BD50036025D /* FirebaseFunctions */; };
 		BF8007CB28647BD50036025D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BF8007CA28647BD50036025D /* FirebaseStorage */; };
+		BF89E3D42869DC8900DEAE46 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89E3D32869DC8900DEAE46 /* DashboardView.swift */; };
 		BFB4AEE728633BF70093F889 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4AEE628633BF70093F889 /* CustomSecureField.swift */; };
 		BFB4AEE9286347C10093F889 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4AEE8286347C10093F889 /* PasswordSecureField.swift */; };
 		BFB4AEEB286357420093F889 /* AuthenticateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4AEEA286357410093F889 /* AuthenticateButtonView.swift */; };
@@ -53,7 +55,9 @@
 		BF7D03F12865D09400093F7B /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		BF7D03F32865D2F600093F7B /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
 		BF7D03F82865D5E400093F7B /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		BF7D03FA2865E47A00093F7B /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		BF8007B9286478C10036025D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF89E3D32869DC8900DEAE46 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		BFB4AEE628633BF70093F889 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		BFB4AEE8286347C10093F889 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 		BFB4AEEA286357410093F889 /* AuthenticateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButtonView.swift; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 			children = (
 				BF8007B9286478C10036025D /* GoogleService-Info.plist */,
 				BF1B353128608CAF006BC01D /* AllDone */,
+				BF7D03EA2865CDA900093F7B /* Utils */,
 				BF1B353028608CAF006BC01D /* Products */,
 				BF7D03F52865D55700093F7B /* Frameworks */,
 			);
@@ -103,10 +108,9 @@
 		BF1B353128608CAF006BC01D /* AllDone */ = {
 			isa = PBXGroup;
 			children = (
-				BF7D03EA2865CDA900093F7B /* Utils */,
+				BF1B35422860B09F006BC01D /* ViewModel */,
 				BF1B35402860B08F006BC01D /* Model */,
 				BF1B35412860B097006BC01D /* View */,
-				BF1B35422860B09F006BC01D /* ViewModel */,
 				BF1B353228608CAF006BC01D /* AllDoneApp.swift */,
 				BF1B353428608CAF006BC01D /* ContentView.swift */,
 				BF1B353628608CB3006BC01D /* Assets.xcassets */,
@@ -139,6 +143,7 @@
 			children = (
 				BF1B35452860B18B006BC01D /* Utils */,
 				BF1B35462860B194006BC01D /* Authentication */,
+				BF89E3D32869DC8900DEAE46 /* DashboardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 		BF1B35422860B09F006BC01D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BF7D03FA2865E47A00093F7B /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -290,6 +296,8 @@
 				BF7D03F42865D2F600093F7B /* SelectedButton.swift in Sources */,
 				BF1B35482860B1C3006BC01D /* SignupView.swift in Sources */,
 				BF7D03F22865D09400093F7B /* TODO.swift in Sources */,
+				BF89E3D42869DC8900DEAE46 /* DashboardView.swift in Sources */,
+				BF7D03FB2865E47A00093F7B /* AuthViewModel.swift in Sources */,
 				BF1B354C2860B8F4006BC01D /* LogoView.swift in Sources */,
 				BFB4AEE9286347C10093F889 /* PasswordSecureField.swift in Sources */,
 				BF1B35442860B0C6006BC01D /* LoginView.swift in Sources */,

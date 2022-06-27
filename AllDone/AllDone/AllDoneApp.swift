@@ -11,6 +11,7 @@ import Firebase
 @main
 struct AllDoneApp: App {
     
+    
     init(){
         FirebaseApp.configure()
     }
@@ -18,6 +19,7 @@ struct AllDoneApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(AuthViewModel.shared)
         }
     }
 }

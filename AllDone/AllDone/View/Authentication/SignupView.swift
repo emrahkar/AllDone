@@ -17,6 +17,8 @@ struct SignupView: View {
     
     @Environment(\.presentationMode) var mode
     
+    @EnvironmentObject var viewModel: AuthViewModel
+    
     var body: some View {
         ZStack{
             BackgroundGradientView()
@@ -30,13 +32,13 @@ struct SignupView: View {
                     UserTextField(text: $lastName, placeholder: Text("Last Name"))
                     EmailTextField(text: $email)
                     PasswordSecureField(text: $password, placeholder: Text("Password"))
-                    PasswordSecureField(text: $password, placeholder: Text("Confirm Password"))
+                    PasswordSecureField(text: $confirmPassword, placeholder: Text("Confirm Password"))
     
                 }
                 .padding(.horizontal, 32)
                 
                 Button {
-                    //sign up action
+                    viewModel.register(withEmail: email, password: password, firstName: firstName, lastName: lastName)
                 } label: {
                     AuthenticateButtonView(text: "Sign Up")
                         .padding()
