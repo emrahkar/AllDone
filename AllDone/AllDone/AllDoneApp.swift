@@ -11,7 +11,6 @@ import Firebase
 @main
 struct AllDoneApp: App {
     
-    
     init(){
         FirebaseApp.configure()
     }

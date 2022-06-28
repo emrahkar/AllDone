@@ -38,6 +38,7 @@
 		BFC6273C2863BB7F000972C0 /* UserTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6273B2863BB7F000972C0 /* UserTextField.swift */; };
 		BFEAA04328622430004580A6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAA04228622430004580A6 /* CustomTextField.swift */; };
 		BFEAA045286227E6004580A6 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAA044286227E6004580A6 /* EmailTextField.swift */; };
+		BFFB6316286B18D200F04895 /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFB6315286B18D100F04895 /* TODOViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		BFC6273B2863BB7F000972C0 /* UserTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextField.swift; sourceTree = "<group>"; };
 		BFEAA04228622430004580A6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		BFEAA044286227E6004580A6 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		BFFB6315286B18D100F04895 /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				BF7D03FA2865E47A00093F7B /* AuthViewModel.swift */,
+				BFFB6315286B18D100F04895 /* TODOViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				BF7D03EC2865CDBE00093F7B /* Constants.swift in Sources */,
 				BFB4AEEB286357420093F889 /* AuthenticateButtonView.swift in Sources */,
 				BF1B353528608CAF006BC01D /* ContentView.swift in Sources */,
+				BFFB6316286B18D200F04895 /* TODOViewModel.swift in Sources */,
 				BF1B354A2860B4F8006BC01D /* BackgroundGradientView.swift in Sources */,
 				BFB4AEE728633BF70093F889 /* CustomSecureField.swift in Sources */,
 				BF1B353328608CAF006BC01D /* AllDoneApp.swift in Sources */,
